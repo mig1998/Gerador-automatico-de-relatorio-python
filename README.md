@@ -1,13 +1,11 @@
-# Gerador-automatico-de-relatorio-python
-
-📊 Gerador Automático de Relatórios em Python
+# 📊 Gerador Automático de Relatórios em Python
 Projeto em Python que realiza leitura de dados em Excel, limpeza automática, análise, geração de gráficos e criação de relatórios em PDF, tudo de forma automatizada.
 
 Projeto desenvolvido para estudos e portfólio, com foco em automação de dados e organização de código em services.
 
 Pode ser executado 100% no celular (Pydroid 3).
 
-🚀 Funcionalidades
+#🚀 Funcionalidades
 📂 Leitura de arquivos Excel (.xlsx)
 🧹 Limpeza automática dos dados
 📈 Análise financeira
@@ -15,45 +13,24 @@ Pode ser executado 100% no celular (Pydroid 3).
 📄 Relatórios em PDF (ReportLab)
 🗂 Código organizado em services
 ⚙ Escolha do tipo de relatório via variável
-📁 Estrutura do Projeto
 
-
-GeradorRelatorios/
-│
-├── main.py
-│
-├── services/
-│   ├── data_service.py
-│   ├── report_service.py
-│   ├── chart_service.py
-│   └── pdf_service.py
-│
-├── data/
-│   └── vendas.xlsx
-│
-└── output/
-    ├── grafico_produto.png
-    ├── grafico_vendedor.png
-    └── relatorio_*.pdf
     
-🧠 Arquitetura do Projeto
+#🧠 Arquitetura do Projeto
 O projeto segue o princípio de separação de responsabilidades, onde cada parte do sistema tem uma função clara:
-Camada
-Responsabilidade
+
 main.py
-
 Controla o fluxo da aplicação
+
 data_service.py
-
 Leitura e limpeza dos dados
+
 report_service.py
-
 Regras de negócio e análises
+
 chart_service.py
-
 Geração de gráficos
-pdf_service.py
 
+pdf_service.py
 Criação do PDF
 
 
@@ -69,7 +46,7 @@ Produto B Maria  200
 
 Os nomes das colunas não podem mudar.
 
-▶ Como executar o projeto
+$▶ Como executar o projeto
 
 Coloque o arquivo Excel em:
 data/vendas.xlsx
@@ -104,7 +81,7 @@ Matplotlib – geração de gráficos
 ReportLab – criação de PDF
 Excel (.xlsx) como fonte de dados
 
-📱 Execução no celular
+#📱 Execução no celular
 Este projeto pode ser executado diretamente no celular usando:
 Pydroid 3 (Android)
 Ideal para quem:
@@ -112,14 +89,12 @@ não possui computador
 quer aprender Python na prática
 deseja criar projetos reais no celular
 
-🎯 Próximas melhorias (ideias)
-Escolha do tipo de relatório via input()
-Geração de múltiplos PDFs automaticamente
-Logs de execução
+#🎯 Próximas melhorias (ideias)
 Dashboard em vez de PDF
 Interface gráfica simples
-Exportar para CSV ou HTML
+
 
 ## 👨‍💻 Autor
-Projeto desenvolvido por FusionCode
-Desenvolvedor focado em automação, fullstack
+FusionCode — Desenvolvedor Full Stack focado em automação, back-end e soluções escaláveis.
+Experiência com Java, Spring Boot, Node.js, C#, SQL e APIs REST.
+Atualmente explorando Python para automação e análise de dados.
