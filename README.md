@@ -5,7 +5,7 @@ Projeto desenvolvido para estudos e portfólio, com foco em automação de dados
 
 Pode ser executado 100% no celular (Pydroid 3).
 
-#🚀 Funcionalidades
+##🚀 Funcionalidades
 📂 Leitura de arquivos Excel (.xlsx)
 🧹 Limpeza automática dos dados
 📈 Análise financeira
@@ -15,7 +15,7 @@ Pode ser executado 100% no celular (Pydroid 3).
 ⚙ Escolha do tipo de relatório via variável
 
     
-#🧠 Arquitetura do Projeto
+##🧠 Arquitetura do Projeto
 O projeto segue o princípio de separação de responsabilidades, onde cada parte do sistema tem uma função clara:
 
 main.py
@@ -46,7 +46,7 @@ Produto B Maria  200
 
 Os nomes das colunas não podem mudar.
 
-$▶ Como executar o projeto
+##▶ Como executar o projeto
 
 Coloque o arquivo Excel em:
 data/vendas.xlsx
@@ -81,7 +81,7 @@ Matplotlib – geração de gráficos
 ReportLab – criação de PDF
 Excel (.xlsx) como fonte de dados
 
-#📱 Execução no celular
+##📱 Execução no celular
 Este projeto pode ser executado diretamente no celular usando:
 Pydroid 3 (Android)
 Ideal para quem:
@@ -89,7 +89,7 @@ não possui computador
 quer aprender Python na prática
 deseja criar projetos reais no celular
 
-#🎯 Próximas melhorias (ideias)
+##🎯 Próximas melhorias (ideias)
 Dashboard em vez de PDF
 Interface gráfica simples
 
